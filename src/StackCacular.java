@@ -16,9 +16,9 @@ public class StackCacular {
 		boolean flag=true;
 		while (flag) {
 			flag = false;
-			System.out.println("ÇëÊäÈëËãÊ½(Àı£º5+4*6/2+3+(4^2)%3):");
+			System.out.println("è¯·è¾“å…¥ç®—å¼(ä¾‹å¦‚:5+4*6/2+3+(4^2)%3):");
 			sc();
-			System.out.println("¼ÌĞø£¿(yes/no)");
+			System.out.println("ç»§ç»­?(yes/no)");
 			Scanner scannerM = new Scanner(System.in);
 			String string = scannerM.nextLine();
 			if(string.equals("y")||string.equals("yes")||string.equals("Y")||string.equals("YES")){
